@@ -1,0 +1,28 @@
+.boot_card {
+    border: none !important;
+}
+
+.card_img {
+    width: 330px !important ;
+    height: auto;
+}
+.style_body  {
+    padding: 5px !important ;
+    background-color: white !important;
+    height: 550px;
+    width: 160px;
+}
+.style_body > img {
+    width: 150px;
+    height: auto;
+}
+.style_body_p {
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+@media only screen and (max-width: 600px) {
+    
+   } 

@@ -1,0 +1,63 @@
+
+.insta {
+    padding-top: 100px;
+}
+
+.instra_box {
+    border-radius: 12px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 9px #d0d0d0,
+                 -5px -5px 9px #f0f0f0;
+    background: #ffffff;
+   padding: 10px;
+    }
+
+    
+    .instra_box_body > img {
+    height: auto;
+    width: 140px;
+
+}
+
+.instra_box_p {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+    
+.instra_box_p > p {
+
+    margin-left: 0.5rem;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.instra_footer {
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    
+
+}
+
+.instra_footer_left {
+    display: flex;
+    justify-content:start ;
+    flex-wrap: wrap;
+}
+
+.instra_footer_left > p {
+    margin-left: 0.4rem;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 600px) {
+   .instra_box {
+    
+   }
+  } 
