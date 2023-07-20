@@ -1,15 +1,17 @@
 import "./App.css";
-// import Insta from "./Designs/Insta";
-// import Style from "./Designs/Style";
-import Fashion from "./Designs/Fashion";
+// import Three from "./Designs/Three";
+// import Two from "./Designs/Two";
+// import One from "./Designs/One";
+import Fourr from "./Designs/Fourr";
 
 function App() {
   return (
     <>
       <div className="app">
-        {/* <Insta />
-        <Style /> */}
-        <Fashion />
+        {/* <Three />
+        <Two />
+        <One /> */}
+        <Fourr />
       </div>
     </>
   );

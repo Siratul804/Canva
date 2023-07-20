@@ -1,18 +1,23 @@
 import React from "react";
-import "./insta.css";
+import "./three.css";
+
+// ......React-Icons.........//
 import { MdOutlineWatchLater } from "react-icons/md";
 import { CiMenuKebab } from "react-icons/ci";
 import { AiOutlineHeart } from "react-icons/ai";
 import { BsChat } from "react-icons/bs";
 import { LuSend } from "react-icons/lu";
+
+// ......Images Import.........//
 import ins1 from "../assets/insta/2.png";
 import ins2 from "../assets/insta/3.png";
 import ins3 from "../assets/insta/4.png";
 import ins4 from "../assets/insta/5.png";
 import save from "../assets/insta/save.svg";
-function Instra() {
+
+function Three() {
   return (
-    <div className="insta">
+    <section className="insta">
       <div className="instra_box">
         {/* ...... instra Nav ........ */}
         <div className="instra_box_p">
@@ -25,8 +30,8 @@ function Instra() {
           </p>
         </div>
         {/* ...... instra Nav ........ */}
-        {/* ...... instra body ........ */}
 
+        {/* ...... instra body ........ */}
         <div className="instra_box_body">
           <img src={ins1} style={{ margin: "0.1rem" }} alt="" />
           <img src={ins2} style={{ margin: "0.1rem" }} alt="" />
@@ -34,10 +39,9 @@ function Instra() {
           <img src={ins3} alt="" style={{ margin: "0.1rem" }} />
           <img src={ins4} alt="" style={{ margin: "0.1rem" }} />
         </div>
-
         {/* ...... instra body ........ */}
-        {/* ...... instra footer ........ */}
 
+        {/* ...... instra footer ........ */}
         <div className="instra_footer p-1 ">
           <div className="instra_footer_left">
             <p>
@@ -56,9 +60,10 @@ function Instra() {
             </p>
           </div>
         </div>
+        {/* ...... instra footer ........ */}
       </div>
-    </div>
+    </section>
   );
 }
 
-export default Instra;
+export default Three;

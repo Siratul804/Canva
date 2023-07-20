@@ -1,8 +1,8 @@
 import React from "react";
 import fashion from "../assets/fashion/f.png";
-import "./fashion.css";
+import "./one.css";
 
-function Fashion() {
+function One() {
   return (
     <div className="fashion pt-4">
       <div className="fashion_bg">
@@ -30,4 +30,4 @@ function Fashion() {
   );
 }
 
-export default Fashion;
+export default One;

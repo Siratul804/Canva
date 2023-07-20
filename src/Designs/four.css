@@ -1,0 +1,46 @@
+.four_bg_img {
+    width: 450px;
+    height: 600px;
+}
+
+.four_inside_img {
+    width: 226px;
+    height: 200px;
+
+}
+
+.four_card {
+    border: none !important;
+}
+
+.four_body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 130px  ;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+
+}
+
+.four_body > h4 {
+ font-size: 16px;
+ padding: 7px;
+}
+.four_body > p {
+ font-size: 12px;
+ padding: 7px;
+}
+.four_body > h6 {
+ font-size: 15px;
+ padding: 7px;
+ cursor: pointer;
+}
+.four_body_hr {
+    border-bottom: 1px solid black;
+    width:  1000px;
+    
+}
